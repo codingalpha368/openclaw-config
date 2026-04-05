@@ -1,0 +1,14 @@
+# Sensitive - never commit
+openclaw.json
+openclaw.json.bak*
+openclaw.json.clobbered*
+agents/main/agent/auth-profiles.json
+agents/main/sessions/
+tasks/
+logs/
+*.sqlite*
+*.lock
+*.tmp
+
+# Keep structure
+.gitkeep

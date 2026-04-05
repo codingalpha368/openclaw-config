@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/home/node/.openclaw/exec-approvals.sock",
+    "token": "Rcxj9Qb0mci4qo-T3y_hj-KlDhOpxgGc"
+  },
+  "defaults": {},
+  "agents": {
+    "main": {
+      "allowlist": [
+        {
+          "id": "398552dc-66d1-4c59-9989-c660ae6ff0ff",
+          "pattern": "/usr/bin/git",
+          "lastUsedAt": 1775321065908,
+          "lastUsedCommand": "git -C /home/node/.openclaw add -A && git -C /home/node/.openclaw commit -m \"Merge\" && git -C /home/node/.openclaw push origin master",
+          "lastResolvedPath": "/usr/bin/git"
+        },
+        {
+          "id": "4b012b1d-b057-494f-b45f-57d525108a4e",
+          "pattern": "/usr/bin/ls",
+          "lastUsedAt": 1775319989621,
+          "lastUsedCommand": "ls -la /home/node/.openclaw/subagents/",
+          "lastResolvedPath": "/usr/bin/ls"
+        },
+        {
+          "id": "84fb90c9-2ce6-4da0-8f49-472138ef432a",
+          "pattern": "/usr/bin/rm",
+          "lastUsedAt": 1773775462562
+        },
+        {
+          "id": "ed575b4c-39ec-4652-9c15-ac853cc5c34b",
+          "pattern": "/usr/bin/sed",
+          "lastUsedAt": 1773834908967,
+          "lastUsedCommand": "sed -n '1118,1135p' /home/node/.openclaw/workspace/pan-security-map/cortex-sase-unified-matrix.html",
+          "lastResolvedPath": "/usr/bin/sed"
+        },
+        {
+          "id": "85e43909-e0d7-46ed-a9b1-123e942d4f09",
+          "pattern": "/usr/bin/grep",
+          "lastUsedAt": 1775318913041,
+          "lastUsedCommand": "grep -i agent /home/node/.openclaw/openclaw.json | head -20",
+          "lastResolvedPath": "/usr/bin/grep"
+        },
+        {
+          "id": "15499dde-becc-4b8f-bf07-92024cb14f07",
+          "pattern": "/usr/bin/head",
+          "lastUsedAt": 1775318913041,
+          "lastUsedCommand": "grep -i agent /home/node/.openclaw/openclaw.json | head -20",
+          "lastResolvedPath": "/usr/bin/grep"
+        },
+        {
+          "id": "5daf5af6-54e0-4c64-b9ac-69eaed8fbc7f",
+          "pattern": "/usr/bin/echo",
+          "lastUsedAt": 1775320582150,
+          "lastUsedCommand": "echo \"test\"",
+          "lastResolvedPath": "/usr/bin/echo"
+        },
+        {
+          "id": "88a2e7bb-8799-48fe-8848-07e6adc57527",
+          "pattern": "/usr/bin/cp",
+          "lastUsedAt": 1773925625222
+        },
+        {
+          "id": "03d57cd5-ecfe-4a73-ab7d-251dc342de8e",
+          "pattern": "/usr/bin/wc",
+          "lastUsedAt": 1773926720080
+        }
+      ]
+    }
+  }
+}

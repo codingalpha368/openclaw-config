@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "jobId": "daily-openclaw-tip",
+      "name": "OpenClaw Daily Tip",
+      "description": "Daily tip about OpenClaw apps, integrations, and use-cases",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "Europe/Helsinki"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Give one practical tip about an OpenClaw app, integration, or use-case that the user should try. Include step-by-step installation/implementation instructions. Make it actionable and concise. Rotate through different categories: automations, integrations, voice features, memory/notes, browser control, messaging, and creative use-cases."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1472488620441997322",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1771657200000
+      }
+    }
+  ]
+}
